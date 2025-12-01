@@ -1,4 +1,3 @@
-
 - name: Catalogue Setup
   hosts: all
   become: true

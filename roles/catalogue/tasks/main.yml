@@ -38,7 +38,7 @@
     state: present
 
 - name: Load Master Data
-  ansible.builtin.shell: mongosh --host dev.shkishore.online </app/db/master-data.js
+  ansible.builtin.shell: mongosh --host dev.mongodb.shkishore.online </app/db/master-data.js
 
 - name: Copy catalogue service file
   ansible.builtin.copy:

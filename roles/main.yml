@@ -1,5 +1,0 @@
-- name: RoboShop Project Setup
-  hosts: all
-  become: true
-  roles:
-    - "{{ component }}"
